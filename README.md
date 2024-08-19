@@ -10,6 +10,6 @@ The goal of this container is to be as simple as I can make it for running in my
 
 ## Environment Variables
 
-`BOINC_URL` the project url you wish to join to
-`BOINC_ACCOUNT_KEY` the weak account key used to associate this instance with your account
-`BOINC_DATA_DIR` the directory where the client will place all of its files
+- `BOINC_URL` the project url you wish to join to
+- `BOINC_ACCOUNT_KEY` the weak account key used to associate this instance with your account
+- `BOINC_DATA_DIR` the directory where the client will place all of its files
