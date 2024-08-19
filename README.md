@@ -4,6 +4,21 @@ This is a simple container build of the boinc client.  For more information abou
 
 > BOINC is an open-source software platform for computing using volunteered resources.
 
+# How to build this yourself
+
+## Clone this project
+
+```sh
+git clone https://github.com/jhjaggars/boinc.git
+```
+
+## Build it
+
+```sh
+podman build -t your-repo/boinc:latest .
+```
+
+
 # How to use this container
 
 The goal of this container is to be as simple as I can make it for running in my kubernetes cluster.  There client will run headless and attach to one project.  The logs are duplicated to a file so that my other boinc-related project can extract metrics from the log as a sidecar.
